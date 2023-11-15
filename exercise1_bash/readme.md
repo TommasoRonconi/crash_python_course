@@ -17,7 +17,6 @@ bandpasses/
 ├── b_goods.dat
 ├── FJ_BB.ASCII
 ├── GMRT_610MHz.asc
-├── GMRT_610MHz.dat
 ├── i_goods.dat
 ├── IRAC1.dat
 ├── IRAC2.dat
@@ -27,7 +26,6 @@ bandpasses/
 ├── ISAACH.dat
 ├── ISAACJ.asc
 ├── ISAACJ_mod.asc
-├── ISAACJ_mod.dat
 ├── ISAACKs.dat
 ├── LABOCA_870.dat
 ├── MIPS1.dat
@@ -134,7 +132,7 @@ The bash script you are going to write will have to
   - if the file contains the string ``photons`` the new file will be called ``FILTER_X.photons.filt``
   - if the file contains the string ``energy`` the new file will be called ``FILTER_X.energy.filt``
 
-Whatever your script does, make sure that when it has finished working, you are positioned in the original working directory you have created (i.e. the one you called ``assignments/ex1``.
+Whatever your script does, make sure that when it has finished working, you are positioned in the original working directory you have created (i.e. the one you called ``assignments/ex1``).
 
 You will send me the script you have written.
 
@@ -142,7 +140,7 @@ You will send me the script you have written.
 
 ### Hints
 
-A couple of suggestions, but 
+A couple of suggestions
 
 - you will probably need to perform **at least** a for-loop
 - you might have to use if-statements (there is a useful link in the slides)
@@ -151,6 +149,6 @@ A couple of suggestions, but
   ```bash
   $ echo 'ciao-ciao' | tr '-' ' '
   ciao ciao
-  ```  
+  ```
 
 Ideally, there will be N possible solutions to this problem, with N = the number of people trying to solve it. Therefore the suggestions above might be useless to the solution you have chosen.
