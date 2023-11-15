@@ -43,7 +43,7 @@ bandpasses/
 0 directories, 34 files
 ```
 
-If you check the file names, you can see how the extension of these files is not uniform, some of them are ``.dat`` some ``.asc`` and some other ``.ASCII``.
+If you check the file names, you might notice how the extension of these files is not uniform, some of them are ``.dat`` some ``.asc`` and some other ``.ASCII``.
 Should I need to load these files in some more complex application it might be necessary to have a uniform extension. I would like to have all of them with the same extension.
 
 Let's now check the content of these files. Without opening them, we can use commands such as ``head``, ``tail``, ``cat`` (check the man-pages in your terminal) to this purpose. For example The lowest wavelength filter of the [Very Large Array](https://public.nrao.edu/telescopes/vla/) looks something like this:
@@ -136,7 +136,17 @@ Whatever your script does, make sure that when it has finished working, you are 
 
 You will send me the script you have written.
 
-**NOTE THAT** usage of the ``rename`` bash function is not allowed, as it is not present in all the machines. In general, **DO NOT INSTALL NEW COMMANDS FOR THIS EXERCISE**, we do not want to pollute your system and we want to make it reproducible in whatever *Nix machine.
+**NOTE THAT** usage of the ``rename`` bash function is not allowed, as it is not present in all the machines. In general, **DO NOT INSTALL NEW COMMANDS FOR THIS EXERCISE**, we do not want to pollute your system (nor mine) and we want to make it reproducible in whatever *Nix machine.
+
+**VERY IMPORTANT:** a code, whatever the language, should be READABLE!! Comments exist for this purpose, so USE THEM.
+Already mentioned above but, to comment something in a bash script you can use the ``#`` character, the system will not read anything after it. That line, or string, is there only to make the code more readable for humans.
+```bash
+# this is a comment
+answer=42 # also this is a comment
+```
+Another pro of comments: if you come back after one year to some script you have written, instead of trying to figure out line-by-line how it was working, reading the comments you wrote will help.
+
+**A GOOD CODE COMES WITH COMMENTS**
 
 ### Hints
 
