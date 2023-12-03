@@ -4,10 +4,11 @@ This repository collects material for the course held in SISSA for 1st year PhD 
 
 ## Content
 
+- [lectures](lectures) is a directory containing notebooks and materials used for python lectures (starting from Lec3)
 - [exercise0_bash](exercise0_bash) is a walkthrough to better understand bash scripts and batches.
 - [exercise1_bash](exercise1_bash) is an assignment in which students have to produce a script for renaming a given collection of files.
 - [exercise2_git](exercise2_git) contains instructions to solve the second assignment, in which students should co-operate on the development of a git repository.
-- [lectures](lectures) is a directory containing notebooks and materials used for python lectures (starting from Lec3)
+- [exercise3_pythonbasics](exercise3_pythonbasics) contains the exercises for the 3rd assignment, in which students should solve some simple mathematical problems by writing python functions and scripts/programs.
 
 ## Useful links:
 
