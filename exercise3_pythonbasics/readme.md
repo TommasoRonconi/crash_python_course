@@ -57,11 +57,13 @@ def fibonacci (n) :
 
     Parameters
     ----------
-    n (int): the n-th term of the sequence
+    n : int 
+        the n-th term of the sequence
 
     Returns
     -------
-    list: a list with the Fibonacci sequence
+    : list
+        a list with the Fibonacci sequence
     """
 ```
 * Test the function with a `main` program, filling a `list` with the elements of the sequence.
