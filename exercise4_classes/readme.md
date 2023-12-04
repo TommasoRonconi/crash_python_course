@@ -11,7 +11,7 @@ In particular, we want to create a new type for handling [**RATIONAL NUMBERS**](
 ## Deliverable
 
 You will have to produce a Python module or Package, something that can be imported from another python program.
-Conceptually, this could be simply hosted in a module, but if you are using other functions to do the computations that are not part of the class itself (i.e. the functions developed in the previous exercise and wrapped in a module as suggest on the bonus point), it might make sense to build a package.
+Conceptually, this could be simply hosted in a module, but if you are using other functions to do the computations that are not part of the class itself (i.e. the functions developed in the previous exercise and wrapped in a module as suggested on the bonus point), it might make sense to build a package.
 
 * You must give me some explanation of what is going on and of your choices, so, write a report describing the solution.
   - Ideally you will create a sub-directory: ``exercise4_classes/solution/``
