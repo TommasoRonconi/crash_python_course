@@ -10,6 +10,8 @@ This repository collects material for the course held in SISSA for 1st year PhD 
 - [exercise2_git](exercise2_git) contains instructions to solve the second assignment, in which students should co-operate on the development of a git repository.
 - [exercise3_pythonbasics](exercise3_pythonbasics) contains the exercises for the 3rd assignment, in which students should solve some simple mathematical problems by writing python functions and scripts/programs.
 
+> Solutions of exercises (except to ex2 which explicitly requires to create a new repo) can be uploaded directly to your fork of this repository. Try to keep the repo tidy though.
+
 ## Useful links:
 
 - Go [at this link](https://docs.conda.io/projects/miniconda/en/latest/) to find the installers and instructions to get and set-up Miniconda3 on your system.
